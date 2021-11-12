@@ -31,7 +31,7 @@ function sendmail() {
 
     Email.send({
       SecureToken: "fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
-      To: 'isa527956@gmail.com',
+      To: 'aamirtarget@gmail.com',
       From: "mohdisa233@gmail.com",
       Subject: "New message on contact from " + name,
       Body: Body
@@ -39,7 +39,7 @@ function sendmail() {
       message => {
         //console.log (message);
         if (message == 'OK') {
-          alert('Your mail has been send. Thank you for connecting.');
+          alert('Your mail has been send. Thanks you for connecting.');
         }
         else {
           console.error(message);
@@ -51,3 +51,6 @@ function sendmail() {
     );
   }
   
+$(document).on('click', 'ul li', function(){
+    $(this).addClass('active').siblings().removeClass('active')
+})
