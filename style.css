@@ -608,7 +608,7 @@ span {
     width: 340px;
     margin: 20px;
     border: 15px solid #fff;
-    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.3);
     transition: 0.5s;
     cursor: pointer;
 }
